@@ -3,7 +3,7 @@ This is a socket communication tool implemented in C++, which includes senders a
 The receiver uses thread to support simultaneous processing of connection requests from multiple senders.
 The receiver executable file uses ordinary multithreading, and the receiver_threadpool executable file uses thread pool.
 
-## 使用方法
+## How to use
 ```bash
 # 编译程序
 make
