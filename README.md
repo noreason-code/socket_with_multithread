@@ -5,13 +5,13 @@ The receiver executable file uses ordinary multithreading, and the receiver_thre
 
 ## How to use
 ```bash
-# 编译程序
+# Compile 
 make
 
-# 启动接收端
+# Start the receiver
 ./receiver_threadpool 127.0.0.1 1234
 
-# 启动发送端
+# Start the sender
 ./sender 127.0.0.1 1234 hello
 ```
 
